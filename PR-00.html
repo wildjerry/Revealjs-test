@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/moon.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+	</head>
+	<body>
+<div class="reveal">
+      <div class="slides">
+
+        <!-- Slide 1 – Title Slide -->
+        <section>
+          <p><img src="https://www.darktable.org/images/darktable-logo-name-1520w.png" alt="darktable" style="max-width: 60%; height: auto; margin-bottom: -0.6em; margin-top: -1em; margin-right:3em;"></p>
+          <small><a href="https://www.darktable.org" data-preview-link>Webpage</a> (Opens as preview)</small>
+          <h3>Jerry Stamos</h3>
+          <p><em>2025-10-30</em></p>
+          <small>Happy Halloween Eve!</small>
+        </section>
+
+        <!-- Slide 2 – Project Overview -->
+        <section>
+          <h2>Project Overview</h2>
+          <ul>
+            <li><strong>Tool for developing raw photos</strong></li>
+            <li><strong>Maintain full control</strong></li>
+            <li><strong>Configure workflow</strong></li>
+            <li><strong>By photographers, for photographers</strong></li>
+          </ul>
+        </section>
+
+        <!-- Slide 3 – Non-Code Contribution Opportunities -->
+        <section>
+          <section data-transition="fade">
+            <h2>Non-Code Contribution Opportunities</h2>
+            <h3>Documentation</h3>
+            <ul>
+              <li><a href="https://docs.darktable.org/usermanual/4.0/en/">Latest version</a></li>
+              <li><strong>Possible focus area:</strong><a href="https://github.com/darktable-org/dtdocs/issues/750">Fixing keyboard shortcuts</a></li>
+              <li><strong>Why it matters:</strong>Improves readability and accessibility</li>
+              <li><strong>Alternate focus area:</strong><a href="https://github.com/darktable-org/dtorg/issues/277">Fix calibration contribution info</a></li>
+            </ul>
+          </section>
+          <section data-transition="fade">
+            <h2>Non-Code Contribution Opportunities</h2>
+            <h3>Image Calibration/Sample Creation</h3>
+            <ul>
+              <li><strong>Calibration:</strong>Can create and submit 1 or more calibration</li>
+              <li><strong>Why it matters:</strong>Provides a baseline when users make edits</li>
+              <li><strong>Sample Creation:</strong>Provides test images for future development of underlying library</li>
+            </ul>
+          </section>
+        </section>
+
+        <!-- Slide 4 – Contribution Guidelines -->
+        <section>
+          <section data-transition="fade">
+            <h2>Contribution Guidelines</h2>
+            <h3>Documentation</h3>
+            <ul>
+              <li><strong>Where to find them:</strong><A href="https://darktable-org.github.io/dtdocs/en/special-topics/contributing/">dtdocs contributing</A></li>
+              <li><strong>Beginner friendly?</strong> Yes. On the website side of things I am being strongly encouraged to make a PR</li>
+              <li><strong>Surprises:</strong> The style guide exists, but isn't consistently followed in some areas</li>
+            </ul>
+          </section>
+          <section data-transition="fade">
+            <h2>Contribution Guidelines</h2>
+            <h3>Calibration</h3>
+            <ul>
+              <li><strong>Where to find them:</strong> <A href="https://docs.darktable.org/usermanual/development/en/special-topics/darktable-chart/">dt-docs special topics</A></li>
+              <li><strong>Beginner friendly?</strong> Unsure. It is a bit of an involved process, but that's fine</li>
+              <li><strong>Surprises:</strong> The website was out of date regarding calibration</li>
+            </ul>
+          </section>
+          <section data-transition="fade">
+            <h2>Contribution Guidelines</h2>
+            <h3>Samples</h3>
+            <ul>
+              <li><strong>Where to find them:</strong> <A href="https://raw.pixls.us/#repo">https://raw.pixls.us/</A></li>
+              <li><strong>Beginner friendly?</strong> Yes. </li>
+              <li><strong>Surprises:</strong> These contributions aren't managed through Github</li>
+            </ul>
+          </section>
+        </section>
+
+        <!-- Slide 5 – Your Next Steps -->
+        <section>
+          <h2> Next Steps</h2>
+          <ul>
+            <li>Determine current guidelines for contributing calibrations</li>
+            <li>Purchase color card(to calibrate against)</li>
+            <li>Clarify calibration submission process</li>
+          </ul>
+        </section>
+
+      </div>
+    </div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+				transition: 'slide', // Default transition for horizontal slides
+				backgroundTransition: 'fade', // Background transition
+				
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
